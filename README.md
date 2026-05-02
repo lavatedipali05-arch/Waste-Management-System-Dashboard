@@ -1,5 +1,5 @@
-# Waste-Management-System-Dashboard
-♻️ Waste Management System Dashboard
+# Plastic Waste-Management-System-Dashboard
+♻️Plastic Waste Management System Dashboard
 
 📊 Overview
 
@@ -36,7 +36,7 @@ It analyzes global plastic waste data and provides meaningful insights through v
 
 📸 Dashboard Preview
 
-(Add screenshots here after deployment)
+(logo.png)
 
 ---
 
@@ -49,7 +49,7 @@ streamlit run app.py
 
 🌐 Live Demo
 
-(After deployment, paste your Streamlit link here)
+(http://localhost:8501/)
 
 ---
 
@@ -71,6 +71,6 @@ streamlit run app.py
 
 👩‍💻 Author
 
-Dipali Dhaygude Lavate
+Dipali Lavate
 
 ---
