@@ -29,8 +29,15 @@ st.subheader("📊 Key Metrics")
 col1, col2, col3 = st.columns(3)
 
 col1.metric("Total Countries", len(filtered_df))
-col2.metric("Max Waste", f"{filtered_df["Total_Plastic_Waste_MT"].max():.2f}" if not filtered_df.empty else "N/A")
-col3.metric("Avg Waste", f"{filtered_df["Total_Plastic_Waste_MT"].mean():.2f}" if not filtered_df.empty else "N/A")
+col2.metric(
+    "Max Waste",
+    f"{filtered_df['Total_Plastic_Waste_MT'].max():.2f}" if not filtered_df.empty else "N/A"
+)
+
+col3.metric(
+    "Avg Waste",
+    f"{filtered_df['Total_Plastic_Waste_MT'].mean():.2f}" if not filtered_df.empty else "N/A"
+)
 
 # Graph - Top 10 Countries Bar Chart - Use filtered_df
 st.subheader("Top 10 Countries by Plastic Waste")
